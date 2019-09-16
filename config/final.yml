@@ -1,1 +1,6 @@
-name: modify-dns
+---
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/redis-blobs
+final_name: modify-dns
