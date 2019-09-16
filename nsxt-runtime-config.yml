@@ -1,0 +1,8 @@
+releases:
+- {name: modify-dns, version: 1}
+
+addons:
+- name: modify-dns
+  jobs:
+  - name: modify-dns
+    release: modify-dns

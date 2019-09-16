@@ -1,0 +1,9 @@
+---
+name: modify-dns
+
+templates: 
+  ctl.sh: bin/ctl.sh
+
+packages: []
+
+properties: {}

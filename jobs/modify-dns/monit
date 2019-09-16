@@ -1,0 +1,5 @@
+check process modify-dns
+  with pidfile /var/vcap/sys/run/modify-dns/pid
+  start program "/var/vcap/jobs/modify-dns/bin/ctl.sh start"
+  stop program "/var/vcap/jobs/modify-dns/bin/ctl.sh stop"
+  group vcap
